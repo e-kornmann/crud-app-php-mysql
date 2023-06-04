@@ -1,0 +1,31 @@
+header {
+        position: sticky;
+        top: 0px;
+        text-align: center;
+        font-size: 30px;
+        background-color: white;
+        padding: 0;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+        -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+        z-index: 40;
+        width: 100%;
+ } 
+
+#fp-logo {
+    position: relative;
+    background-image: url("../assets/logo/fp-software.svg");
+    padding: 0px;
+    margin-left: 15px;
+    background-repeat: no-repeat;
+    background-size: 165px 100px;
+    display: block;
+    height: 100px;
+    width: 165px;
+
+  }
+
+.align-right {
+    float: right;
+    margin-top: -40px;
+}

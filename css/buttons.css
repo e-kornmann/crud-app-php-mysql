@@ -1,0 +1,121 @@
+
+
+.icons {
+    width: 19px;
+    height: 19px;
+    margin-top: 6px;
+}
+
+.main-button {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: -4px;
+    margin-right: 9px;
+    border: 0 solid #e2e8f0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .main-button:hover {
+    box-shadow: 0px 2px 3px rgba(14, 14, 15, 0.152);
+    color: #fff;
+    background-color: #ffffff;
+    
+  }
+  
+
+.submit, .add-employee, .close {
+    background-color: #b9cc00;
+    color: white;
+    height: 45px;
+    padding-bottom: 8px;
+}
+
+
+.close {
+    border-radius: 0.25rem;
+    box-shadow: none;
+    background-color: white;
+    border: 2px solid  #b9cc00;
+    color: #b9cc00;
+    grid-column: 1 / 4;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 35px;
+    font-size: 1.0rem;
+}
+
+
+.close:hover {
+    box-shadow: none;
+    background-color: white;
+    border: 2px solid   #233946;
+    color:  #233946;
+    
+}
+
+.submit {
+    border-radius: 0.25rem;
+    grid-column: 4 / 7;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 35px;
+    font-size: 1.0rem;
+}
+
+.submit:hover {
+    box-shadow: none;
+    background-color: #233946;
+    border: 2px solid   #233946;
+    color:  white;
+}
+
+
+
+
+
+.add-employee {
+    position: relative;
+    bottom: 15px;
+    width: 200px;
+}
+
+.add-employee:hover {
+    box-shadow: none;
+    background-color: white;
+    border: 2px solid  #b9cc00;
+    color: #b9cc00;
+}
+
+
+.add-employee::before {
+    content: url("../assets/icons/icon_add-white.svg");
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 4px;
+    left: -4px;
+}
+
+
+.add-employee:hover::before {
+    content: url("../assets/icons/icon_add.svg");
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 4px;
+    left: -4px;
+}
